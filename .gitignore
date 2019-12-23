@@ -2,6 +2,7 @@
 
 *.gitignore
 *.gitattributes
-/.idea
+.idea
 *.xml
 *.iml
+.DS_Store
