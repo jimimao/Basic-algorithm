@@ -1,4 +1,5 @@
-
+.gitignore
+.gitattributes
 .idea
 *.xml
 *.iml
