@@ -14,6 +14,7 @@ class SelectionSort():
             self.listA[minindex] = sentry
         return self.listA
 
+
 if __name__ == "__main__":
     import os
     print(os.path.abspath(__file__))
