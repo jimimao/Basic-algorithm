@@ -9,4 +9,4 @@ if __name__ == "__main__":
     start = time.time()
     a1 = InsertionSort(listA)
     end = time.time()
-    print("InsertionSort time %.5f" % (end-start))
+    print("InsertionSort time %.50f" % (end-start))

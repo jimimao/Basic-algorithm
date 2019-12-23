@@ -6,6 +6,7 @@ class InsertionSort():
     """
     def __init__(self,listA:list):
         self.listA = listA
+
     def InsertionSort(self):
         n = len(self.listA)
         for j in range(1,n):
@@ -17,6 +18,7 @@ class InsertionSort():
             # 此时 key >= lsitA[i]
             self.listA[i+1] = key
         return self.listA
+
 
 if __name__ == "__main__":
     import os
